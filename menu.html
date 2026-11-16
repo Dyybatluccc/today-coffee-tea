@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Today Coffee Tea - góc nhỏ dành cho cà phê, trà và những khoảnh khắc thư giãn.">
+  <title>Thực đơn | Today Coffee Tea</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="topbar"><div class="container"><span><i class="fa-regular fa-clock"></i> Mỗi ngày: 07:00 – 22:00</span><span><i class="fa-solid fa-location-dot"></i> Một góc nhỏ, thật nhiều niềm vui</span></div></div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html"><span class="brand-mark"><i class="fa-solid fa-mug-hot"></i></span><span>TODAY<small>COFFEE & TEA</small></span></a>
+      <input class="nav-check" type="checkbox" id="nav-check"><label class="menu-toggle" for="nav-check" aria-label="Mở menu"><i class="fa-solid fa-bars"></i></label>
+      <ul class="nav-links"><li><a class="" href="index.html">Trang chủ</a></li><li><a class="" href="about.html">Về chúng tôi</a></li><li><a class="active" href="menu.html">Thực đơn</a></li><li><a class="" href="gallery.html">Thư viện ảnh</a></li><li><a class="" href="contact.html">Liên hệ</a></li></ul>
+      <a class="nav-cta" href="menu.html">Khám phá menu <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </header>
+  
+<main>
+  <section class="page-hero menu-banner"><div class="container"><span class="eyebrow">Today’s menu</span><h1>Chọn món cho hôm nay</h1><p>Từ cà phê đậm vị đến trà trái cây mát lành và vài món ăn vặt cho cuộc hẹn thêm vui.</p><div class="breadcrumb"><a href="index.html">Trang chủ</a> / Thực đơn</div></div></section>
+  <section class="section menu-page">
+    <div class="container">
+      <div class="menu-intro" data-aos="fade-up"><div><span class="eyebrow">Menu nhà Today</span><h2>Món ngon, giá dễ thương</h2></div><p>Chọn một danh mục để xem món và giá. Giá được nhập theo menu quán cung cấp.</p></div>
+      <div class="category-showcase">
+        <div class="category-tile-wrap">
+          <input class="modal-toggle" type="checkbox" id="modal-coffee">
+          <article class="category-card" data-aos="fade-up"><div class="category-cover cover-coffee"><img class="category-photo" src="images/do_uong/today_coffee_tea_01_coffee_cacao.png" alt="Cà phê và cacao Today" loading="lazy"><span class="cover-label">TODAY · COFFEE</span><span class="cover-caption">Một chút đậm đà</span></div><div class="category-card-info"><div><span class="category-count">09 MÓN</span><h3>Cà phê & cacao</h3></div><label class="category-action" for="modal-coffee">Xem món <i class="fa-solid fa-arrow-right"></i></label></div></article>
+          <div class="menu-modal"><label class="modal-backdrop" for="modal-coffee" aria-label="Đóng danh mục cà phê"></label><section class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="dialog-title-coffee"><header><div><span class="category-count">TODAY’S MENU · 01</span><h2 id="dialog-title-coffee">Cà phê & cacao</h2></div><label class="modal-close" for="modal-coffee" aria-label="Đóng">×</label></header><ul class="modal-menu-list"><li><span>Cà phê đen</span><strong>12.000đ</strong></li><li><span>Cà phê sữa</span><strong>15.000đ</strong></li><li><span>Cà phê muối</span><strong>20.000đ</strong></li><li><span>Sữa tươi trân châu đường đen</span><strong>15.000đ</strong></li><li><span>Bạc xỉu</span><strong>15.000đ</strong></li><li><span>Ca cao</span><strong>15.000đ</strong></li><li><span>Ca cao kem muối</span><strong>20.000đ</strong></li><li><span>Milo nóng / đá</span><strong>15.000đ</strong></li><li><span>Milo dầm</span><strong>15.000đ</strong></li></ul></section></div>
+        </div>
+        <div class="category-tile-wrap">
+          <input class="modal-toggle" type="checkbox" id="modal-macchiato">
+          <article class="category-card" data-aos="fade-up" data-aos-delay="60"><div class="category-cover cover-macchiato"><img class="category-photo" src="images/do_uong/today_coffee_tea_02_macchiato.png" alt="Thức uống macchiato Today" loading="lazy"><span class="cover-label">TODAY · MACCHIATO</span><span class="cover-caption">Lớp kem mịn màng</span></div><div class="category-card-info"><div><span class="category-count">03 MÓN</span><h3>Macchiato</h3></div><label class="category-action" for="modal-macchiato">Xem món <i class="fa-solid fa-arrow-right"></i></label></div></article>
+          <div class="menu-modal"><label class="modal-backdrop" for="modal-macchiato" aria-label="Đóng danh mục macchiato"></label><section class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="dialog-title-macchiato"><header><div><span class="category-count">TODAY’S MENU · 02</span><h2 id="dialog-title-macchiato">Macchiato</h2></div><label class="modal-close" for="modal-macchiato" aria-label="Đóng">×</label></header><ul class="modal-menu-list"><li><span>Matcha Macchiato</span><strong>20.000đ</strong></li><li><span>Socola Macchiato</span><strong>20.000đ</strong></li><li><span>Hoa đậu biếc Macchiato</span><strong>20.000đ</strong></li></ul></section></div>
+        </div>
+        <div class="category-tile-wrap">
+          <input class="modal-toggle" type="checkbox" id="modal-blended">
+          <article class="category-card" data-aos="fade-up" data-aos-delay="120"><div class="category-cover cover-blended"><img class="category-photo" src="images/do_uong/today_coffee_tea_03_blended.png" alt="Đồ uống đá xay Today" loading="lazy"><span class="cover-label">TODAY · BLENDED</span><span class="cover-caption">Mát lạnh xay nhuyễn</span></div><div class="category-card-info"><div><span class="category-count">04 MÓN</span><h3>Đá xay</h3></div><label class="category-action" for="modal-blended">Xem món <i class="fa-solid fa-arrow-right"></i></label></div></article>
+          <div class="menu-modal"><label class="modal-backdrop" for="modal-blended" aria-label="Đóng danh mục đá xay"></label><section class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="dialog-title-blended"><header><div><span class="category-count">TODAY’S MENU · 03</span><h2 id="dialog-title-blended">Đá xay</h2></div><label class="modal-close" for="modal-blended" aria-label="Đóng">×</label></header><ul class="modal-menu-list"><li><span>Matcha đá xay</span><strong>25.000đ</strong></li><li><span>Socola đá xay</span><strong>25.000đ</strong></li><li><span>Việt quất đá xay</span><strong>25.000đ</strong></li><li><span>Cookie đá xay</span><strong>25.000đ</strong></li></ul></section></div>
+        </div>
+        <div class="category-tile-wrap">
+          <input class="modal-toggle" type="checkbox" id="modal-tea">
+          <article class="category-card" data-aos="fade-up"><div class="category-cover cover-tea"><img class="category-photo" src="images/do_uong/today_coffee_tea_04_tea_milk_tea.png" alt="Trà và trà sữa Today" loading="lazy"><span class="cover-label">TODAY · TEA</span><span class="cover-caption">Thơm trà, mát vị</span></div><div class="category-card-info"><div><span class="category-count">11 MÓN</span><h3>Trà & trà sữa</h3></div><label class="category-action" for="modal-tea">Xem món <i class="fa-solid fa-arrow-right"></i></label></div></article>
+          <div class="menu-modal"><label class="modal-backdrop" for="modal-tea" aria-label="Đóng danh mục trà"></label><section class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="dialog-title-tea"><header><div><span class="category-count">TODAY’S MENU · 04</span><h2 id="dialog-title-tea">Trà & trà sữa</h2></div><label class="modal-close" for="modal-tea" aria-label="Đóng">×</label></header><ul class="modal-menu-list"><li><span>Trà sữa truyền thống</span><strong>15.000đ</strong></li><li><span>Trà sữa matcha</span><strong>15.000đ</strong></li><li><span>Trà đào</span><strong>15.000đ</strong></li><li><span>Trà vải</span><strong>15.000đ</strong></li><li><span>Trà dâu</span><strong>15.000đ</strong></li><li><span>Trà tắc</span><strong>10.000đ</strong></li><li><span>Trà tắc Thái xanh</span><strong>10.000đ</strong></li><li><span>Trà trái cây</span><strong>20.000đ</strong></li><li><span>Trà Lipton</span><strong>15.000đ</strong></li><li><span>Trà đào cam sả</span><strong>20.000đ</strong></li><li><span>Trà gừng nóng / lạnh</span><strong>15.000đ</strong></li></ul></section></div>
+        </div>
+        <div class="category-tile-wrap">
+          <input class="modal-toggle" type="checkbox" id="modal-yaourt">
+          <article class="category-card" data-aos="fade-up" data-aos-delay="60"><div class="category-cover cover-yaourt"><img class="category-photo" src="images/do_uong/today_coffee_tea_05_yogurt.png" alt="Yaourt Today" loading="lazy"><span class="cover-label">TODAY · YOGURT</span><span class="cover-caption">Chua dịu, ngọt lành</span></div><div class="category-card-info"><div><span class="category-count">07 MÓN</span><h3>Yaourt</h3></div><label class="category-action" for="modal-yaourt">Xem món <i class="fa-solid fa-arrow-right"></i></label></div></article>
+          <div class="menu-modal"><label class="modal-backdrop" for="modal-yaourt" aria-label="Đóng danh mục yaourt"></label><section class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="dialog-title-yaourt"><header><div><span class="category-count">TODAY’S MENU · 05</span><h2 id="dialog-title-yaourt">Yaourt</h2></div><label class="modal-close" for="modal-yaourt" aria-label="Đóng">×</label></header><ul class="modal-menu-list"><li><span>Yaourt trái cây</span><strong>20.000đ</strong></li><li><span>Yaourt hũ</span><strong>10.000đ</strong></li><li><span>Yaourt đá</span><strong>15.000đ</strong></li><li><span>Yaourt Việt quất</span><strong>20.000đ</strong></li><li><span>Yaourt dâu</span><strong>20.000đ</strong></li><li><span>Yaourt đào</span><strong>20.000đ</strong></li><li><span>Dừa trái</span><strong>20.000đ</strong></li></ul></section></div>
+        </div>
+        <div class="category-tile-wrap">
+          <input class="modal-toggle" type="checkbox" id="modal-smoothie">
+          <article class="category-card" data-aos="fade-up" data-aos-delay="120"><div class="category-cover cover-smoothie"><img class="category-photo" src="images/do_uong/today_coffee_tea_06_smoothie.png" alt="Sinh tố trái cây Today" loading="lazy"><span class="cover-label">TODAY · SMOOTHIE</span><span class="cover-caption">Trái cây theo mùa</span></div><div class="category-card-info"><div><span class="category-count">06 MÓN</span><h3>Sinh tố</h3></div><label class="category-action" for="modal-smoothie">Xem món <i class="fa-solid fa-arrow-right"></i></label></div></article>
+          <div class="menu-modal"><label class="modal-backdrop" for="modal-smoothie" aria-label="Đóng danh mục sinh tố"></label><section class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="dialog-title-smoothie"><header><div><span class="category-count">TODAY’S MENU · 06</span><h2 id="dialog-title-smoothie">Sinh tố</h2></div><label class="modal-close" for="modal-smoothie" aria-label="Đóng">×</label></header><ul class="modal-menu-list"><li><span>Sinh tố bơ</span><strong>20.000đ</strong></li><li><span>Sinh tố dừa</span><strong>20.000đ</strong></li><li><span>Sinh tố xoài</span><strong>20.000đ</strong></li><li><span>Sinh tố sapoche</span><strong>20.000đ</strong></li><li><span>Sinh tố dâu</span><strong>20.000đ</strong></li><li><span>Sinh tố mãng cầu</span><strong>20.000đ</strong></li></ul></section></div>
+        </div>
+        <div class="category-tile-wrap">
+          <input class="modal-toggle" type="checkbox" id="modal-fresh">
+          <article class="category-card" data-aos="fade-up"><div class="category-cover cover-fresh"><img class="category-photo" src="images/do_uong/today_coffee_tea_07_fresh_juice_soda.png" alt="Nước ép và soda Today" loading="lazy"><span class="cover-label">TODAY · FRESH</span><span class="cover-caption">Tươi mát mỗi ngày</span></div><div class="category-card-info"><div><span class="category-count">08 MÓN</span><h3>Nước ép & soda</h3></div><label class="category-action" for="modal-fresh">Xem món <i class="fa-solid fa-arrow-right"></i></label></div></article>
+          <div class="menu-modal"><label class="modal-backdrop" for="modal-fresh" aria-label="Đóng danh mục nước ép và soda"></label><section class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="dialog-title-fresh"><header><div><span class="category-count">TODAY’S MENU · 07</span><h2 id="dialog-title-fresh">Nước ép & soda</h2></div><label class="modal-close" for="modal-fresh" aria-label="Đóng">×</label></header><ul class="modal-menu-list"><li><span>Nước ép thơm</span><strong>20.000đ</strong></li><li><span>Nước ép cà rốt</span><strong>20.000đ</strong></li><li><span>Nước ép táo</span><strong>20.000đ</strong></li><li><span>Nước ép dưa hấu</span><strong>20.000đ</strong></li><li><span>Nước ép cam</span><strong>20.000đ</strong></li><li><span>Soda việt quất</span><strong>20.000đ</strong></li><li><span>Soda chanh</span><strong>15.000đ</strong></li><li><span>Soda dâu</span><strong>20.000đ</strong></li></ul></section></div>
+        </div>
+        <div class="category-tile-wrap">
+          <input class="modal-toggle" type="checkbox" id="modal-snacks">
+          <article class="category-card" data-aos="fade-up" data-aos-delay="60"><div class="category-cover cover-snacks"><img class="category-photo" src="images/do_uong/today_coffee_tea_08_snacks.png" alt="Món ăn vặt Today" loading="lazy"><span class="cover-label">TODAY · SNACKS</span><span class="cover-caption">Ăn vui một chút</span></div><div class="category-card-info"><div><span class="category-count">13 MÓN</span><h3>Ăn vặt</h3></div><label class="category-action" for="modal-snacks">Xem món <i class="fa-solid fa-arrow-right"></i></label></div></article>
+          <div class="menu-modal"><label class="modal-backdrop" for="modal-snacks" aria-label="Đóng danh mục ăn vặt"></label><section class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="dialog-title-snacks"><header><div><span class="category-count">TODAY’S MENU · 08</span><h2 id="dialog-title-snacks">Ăn vặt</h2></div><label class="modal-close" for="modal-snacks" aria-label="Đóng">×</label></header><ul class="modal-menu-list"><li><span>Tteokbokki phô mai kéo sợi</span><strong>20.000đ</strong></li><li><span>Mì cay</span><strong>25.000đ</strong></li><li><span>Cá viên xóc bơ tỏi</span><strong>30.000đ</strong></li><li><span>Khoai tây chiên</span><strong>15.000đ</strong></li><li><span>Cá viên chiên</span><strong>10.000đ</strong></li><li><span>Xúc xích chiên</span><strong>10.000đ</strong></li><li><span>Bò viên chiên</span><strong>10.000đ</strong></li><li><span>Phô mai que</span><strong>10.000đ</strong></li><li><span>Đùi gà chiên</span><strong>25.000đ</strong></li><li><span>Kimbap chiên</span><strong>10.000đ</strong></li><li><span>Chân gà sả tắc</span><strong>30.000đ</strong></li><li><span>Bánh tráng trứng</span><strong>12.000đ</strong></li><li><span>Trái cây chấm muối</span><strong>15.000đ</strong></li></ul></section></div>
+        </div>
+      </div>
+      <p class="menu-footnote"><i class="fa-regular fa-circle-check"></i> Mức giá theo menu hiện tại tại quán. Vui lòng liên hệ quán để xác nhận khi cần.</p>
+    </div>
+  </section>
+  <section class="cta-band"><div class="container"><h2>Đã chọn được món yêu thích?</h2><p>Gọi Today để hỏi thêm hoặc đặt món nhé.</p><a class="btn" href="tel:0346045476"><i class="fa-solid fa-phone"></i> 0346 045 476</a></div></section>
+</main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand"><a class="brand" href="index.html"><span class="brand-mark"><i class="fa-solid fa-mug-hot"></i></span><span style="color:#fff5e8">TODAY<small style="color:#d7b987">COFFEE & TEA</small></span></a><p>Today Coffee Tea – nơi hương cà phê thơm dịu, tách trà mát lành và những câu chuyện nhỏ gặp nhau.</p><div class="socials"><a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a><a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a></div></div>
+        <div><h3>Khám phá</h3><ul class="footer-links"><li><a href="about.html">Câu chuyện Today</a></li><li><a href="menu.html">Thực đơn</a></li><li><a href="gallery.html">Không gian quán</a></li><li><a href="contact.html">Liên hệ</a></li></ul></div>
+        <div><h3>Thông tin</h3><ul class="footer-links"><li><i class="fa-solid fa-location-dot"></i> Địa chỉ: Xóm Chợ, Đội 1, xã Nam Hải Lăng, tỉnh Quảng Trị</li><li><i class="fa-solid fa-phone"></i> <a href="tel:0346045476">0346 045 476</a></li><li><i class="fa-regular fa-clock"></i> 07:00 – 22:00 mỗi ngày</li><li><i class="fa-regular fa-envelope"></i> hello@todaycoffee.vn</li></ul></div>
+      </div>
+      <div class="copyright">© 2026 Today Coffee Tea. Website giới thiệu được xây dựng bởi Today Coffee Tea.</div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init({ duration: 750, once: true, offset: 70 });</script>
+</body>
+</html>
